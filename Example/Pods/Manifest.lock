@@ -1,0 +1,42 @@
+PODS:
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking3-RACExtensions (0.1.0):
+    - AFNetworking3-RACExtensions/NSURLSession (= 0.1.0)
+  - AFNetworking3-RACExtensions/NSURLSession (0.1.0):
+    - AFNetworking/NSURLSession (~> 3.0)
+    - ReactiveCocoa (~> 2.0)
+  - Expecta (1.0.5)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Specta (1.0.5)
+
+DEPENDENCIES:
+  - AFNetworking3-RACExtensions (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  AFNetworking3-RACExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AFNetworking3-RACExtensions: 7e6bd04ef69a3783f6379c1dfa1ed28069caebe3
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
+
+PODFILE CHECKSUM: 35185b3dd34f53f6d0484ef3f6d27d646593f756
+
+COCOAPODS: 1.1.1

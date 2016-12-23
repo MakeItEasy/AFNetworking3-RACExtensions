@@ -1,0 +1,36 @@
+{
+  "name": "AFNetworking3-RACExtensions",
+  "version": "0.1.0",
+  "summary": "Add RAC support for AFNetworking 3.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/makeiteasy/AFNetworking3-RACExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MakeItEasy": "rugang6891@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/makeiteasy/AFNetworking3-RACExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AFNetworking3-RACExtensions/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "NSURLSession",
+      "dependencies": {
+        "AFNetworking/NSURLSession": [
+          "~> 3.0"
+        ],
+        "ReactiveCocoa": [
+          "~> 2.0"
+        ]
+      },
+      "source_files": "AFNetworking3-RACExtensions/Classes/AFHTTPSessionManager+RACSupport.{h,m}"
+    }
+  ]
+}
