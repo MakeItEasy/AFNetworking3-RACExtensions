@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'AFNetworking3-RACExtensions_Example' do
+  pod 'AFNetworking3-RACExtensions', :path => '../'
+
+  target 'AFNetworking3-RACExtensions_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
