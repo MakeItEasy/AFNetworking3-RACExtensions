@@ -1,9 +1,10 @@
 # AFNetworking3-RACExtensions
 
-[![CI Status](http://img.shields.io/travis/MakeItEasy/AFNetworking3-RACExtensions.svg?style=flat)](https://travis-ci.org/MakeItEasy/AFNetworking3-RACExtensions)
+[![CI Status](https://travis-ci.org/MakeItEasy/AFNetworking3-RACExtensions.svg?branch=master)](https://travis-ci.org/MakeItEasy/AFNetworking3-RACExtensions)
 [![Version](https://img.shields.io/cocoapods/v/AFNetworking3-RACExtensions.svg?style=flat)](http://cocoapods.org/pods/AFNetworking3-RACExtensions)
 [![License](https://img.shields.io/cocoapods/l/AFNetworking3-RACExtensions.svg?style=flat)](http://cocoapods.org/pods/AFNetworking3-RACExtensions)
 [![Platform](https://img.shields.io/cocoapods/p/AFNetworking3-RACExtensions.svg?style=flat)](http://cocoapods.org/pods/AFNetworking3-RACExtensions)
+
 
 ## Introduction
 
